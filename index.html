@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <header class="header">
+        <a href="#home" class="logo">Ananya <span>Singh</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+
+        <nav class="navbar">
+            <a href="#home" class="">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects </a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+
+        <!-- <div class="home-img">
+            <img src="img.jpg" alt="">
+        </div> -->
+        <div class="home-content">
+            <h1>Hi, It's <span>Ananya</span></h1>
+            <h3 class="text-animation">
+                I'm a <span class="auto-type"></span>
+            </h3>
+            
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque quaerat distinctio harum at amet nisi adipisci animi iusto molestias libero ut quibusdam, est sunt ipsum deserunt corporis ab ducimus tempora.</p>
+
+            <div class="social-icon">
+                <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxs-envelope' ></i></a>
+                <a href="#"><i class='bx bxl-github' ></i></a>
+                
+            </div>
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="iiim.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam est eveniet eum accusamus iusto consequatur praesentium adipisci doloribus, sunt ipsum nulla. Doloribus rerum similique deleniti corrupti ex vero odio neque! <br></p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="projects-box">
+            <div class="project-card">
+                <img src="download (4).jpg" alt="">
+
+                <h3>Project 1</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae suscipit ut delectus atque quas distinctio consequuntur culpa qui. Dolores corrupti corporis quibusdam totam officia doloremque iure, debitis error in animi.</p>
+                <div class="btn">Review Project</div>
+            </div>
+
+            <div class="project-card">
+                <img src="download (4).jpg" alt="">
+
+                <h3>Project 2</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae suscipit ut delectus atque quas distinctio consequuntur culpa qui. Dolores corrupti corporis quibusdam totam officia doloremque iure, debitis error in animi.</p>
+                <div class="btn">Review Project</div>
+            </div>
+
+            <div class="project-card">
+                <img src="download (4).jpg" alt="">
+
+                <h3>Project 3</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae suscipit ut delectus atque quas distinctio consequuntur culpa qui. Dolores corrupti corporis quibusdam totam officia doloremque iure, debitis error in animi.</p>
+                <div class="btn">Review Project</div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+            <div class="input-group2">
+                <textarea name="" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icon">
+            <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="#"><i class='bx bxs-envelope' ></i></a>
+            <a href="#"><i class='bx bxl-github' ></i></a>
+            
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#">FAQs</a>
+            </li>
+
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="contact">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            @ Ananya Singh | All Rights Reserved                                                                                                                                                                                                                                                                             
+        </p>
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var typed = new Typed(".auto-type",{
+          strings :["Cloud Engineer", "Web Developer", "Software Tester"],
+            typeSpeed : 150,
+            backSpeed : 150,
+            loop : true
+        })
+    </script>
+    
+  </body>
+</html>
+
